@@ -5,7 +5,6 @@ namespace FocalTask.DomainLayer;
 
 public class MetaData
 {
-    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
     public int MovieId { get; set; }
     public string? Title { get; set; }
